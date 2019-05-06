@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Admin Panel"
+AuthUserFile "/Users/jojer/Doceuments/test/admin/.htpasswd"
+Require valid-user

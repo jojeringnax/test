@@ -1,0 +1,40 @@
+
+
+.hidden {
+    display: none;
+}
+
+a.page-link.active {
+    background-color: #007bff;
+    color: white;
+}
+
+th {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.legend > .flex {
+    justify-content: left;
+}
+
+.legend > .flex > div {
+    margin-right: 12px;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.asc::after {
+    content: ' (asc)';
+}
+
+.desc::after {
+    content: ' (desc)';
+}

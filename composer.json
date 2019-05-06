@@ -1,0 +1,20 @@
+{
+    "name": "jojer/test",
+    "description": "Test tasks project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jojeringnax",
+            "email": "hollow718@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": "",
+            "jojer\\": "vendor/jojer"
+        }
+    }
+}
