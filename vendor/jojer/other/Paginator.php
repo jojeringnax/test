@@ -47,9 +47,6 @@ class Paginator
     {
         $this->array = $array;
         $this->pages = ceil(count($array)/$limit);
-        if ($this->pages < 2) {
-            return null;
-        }
         $this->bootstrapHtml = '<table class="table">
     <thead>
     <tr>
